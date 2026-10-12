@@ -64,7 +64,12 @@ Reglas: todo en minúsculas ASCII, separador `-`, doble guion `--` sólo para mo
 
 ## Integridad
 
-Cada archivo se descarga en su versión original y se verifica contra el **SHA-1** publicado por la API de MediaWiki antes de escribirse. El SHA-1 queda registrado en `manifest.json`. El script nunca borra archivos: sólo reporta los huérfanos.
+Cada archivo se descarga en su versión original (`format=original`) y se verifica contra el **SHA-1** publicado por la API de MediaWiki antes de escribirse. El campo `integrity` de `manifest.json` indica el resultado:
+
+- `exact`: los bytes son idénticos al original subido a la wiki.
+- `cdn-modified`: el CDN de Fandom entrega el archivo sin algunos metadatos (pasa con subidas antiguas, sobre todo JPG). Se acepta sólo si el formato coincide y el tamaño difiere menos de 5%. Se registra su SHA-1 real en `sha1_stored`.
+
+El script nunca borra archivos: sólo reporta los huérfanos.
 
 ## Uso local
 
