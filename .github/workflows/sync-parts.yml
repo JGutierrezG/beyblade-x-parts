@@ -28,6 +28,7 @@ jobs:
         run: .venv/bin/python scripts/sync_parts.py
 
       - name: Commit changes
+        if: ${{ !cancelled() }}   # keep partial progress even if some downloads failed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
