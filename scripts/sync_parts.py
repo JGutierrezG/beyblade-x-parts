@@ -300,20 +300,46 @@ def sha1_file(p: Path) -> str:
     return h.hexdigest()
 
 
+MAGIC = {"png": b"\x89PNG\r\n\x1a\n", "jpg": b"\xff\xd8\xff", "gif": b"GIF8", "webp": b"RIFF"}
+
+
+def verify(data: bytes, e: dict) -> str:
+    """Return integrity level or raise.
+
+    'exact'        -> SHA-1 equals the one published by MediaWiki.
+    'cdn-modified' -> Fandom's CDN stripped metadata (seen on older uploads, typically
+                      a few bytes). Accepted only if format magic matches and size is
+                      within 5% of the original; the actual SHA-1 is recorded.
+    """
+    if hashlib.sha1(data).hexdigest() == e["sha1"]:
+        return "exact"
+    ext = e["path"].rsplit(".", 1)[-1]
+    if not data.startswith(MAGIC.get(ext, b"")):
+        raise ValueError(f"format mismatch: expected {ext}, magic={data[:12]!r}")
+    if abs(len(data) - e["bytes"]) > 0.05 * e["bytes"]:
+        raise ValueError(f"size deviation too large: got {len(data)}, expected {e['bytes']}")
+    return "cdn-modified"
+
+
 def download(plan: list[dict]) -> dict:
-    stats = {"downloaded": 0, "unchanged": 0, "failed": 0}
+    stats = {"downloaded": 0, "unchanged": 0, "cdn_modified": 0, "failed": 0}
     for e in plan:
         if e["status"] != "ok":
             continue
         dest = ROOT / e["path"]
-        if dest.exists() and sha1_file(dest) == e["sha1"]:
-            stats["unchanged"] += 1
-            continue
+        if dest.exists():
+            local = sha1_file(dest)
+            if local == e["sha1"] or local == e.get("sha1_stored"):
+                e["integrity"] = "exact" if local == e["sha1"] else "cdn-modified"
+                e["sha1_stored"] = local
+                stats["unchanged"] += 1
+                continue
         try:
             data = http_get(e["source_url"])
-            if hashlib.sha1(data).hexdigest() != e["sha1"]:
-                raise ValueError(f"SHA-1 mismatch (got {len(data)} bytes, expected {e['bytes']}, "
-                                 f"magic={data[:12]!r})")
+            e["integrity"] = verify(data, e)
+            e["sha1_stored"] = hashlib.sha1(data).hexdigest()
+            if e["integrity"] == "cdn-modified":
+                stats["cdn_modified"] += 1
             dest.parent.mkdir(parents=True, exist_ok=True)
             tmp = dest.with_suffix(dest.suffix + ".part")
             tmp.write_bytes(data)
@@ -370,6 +396,14 @@ def main() -> int:
     plan = build_plan(rows, info)
 
     stats = {"parts": len(rows), "images_planned": sum(1 for e in plan if e["path"])}
+    # Carry over SHA-1 of previously accepted cdn-modified files so they are not re-fetched.
+    prev_path = ROOT / "manifest.json"
+    if prev_path.exists():
+        prev = {p["path"]: p for p in json.loads(prev_path.read_text()).get("parts", []) if p.get("path")}
+        for e in plan:
+            if e["path"] in prev and prev[e["path"]].get("sha1") == e["sha1"]:
+                e["sha1_stored"] = prev[e["path"]].get("sha1_stored")
+
     if not args.dry_run:
         stats.update(download(plan))
         referenced = {str(ROOT / e["path"]) for e in plan if e["path"]}
