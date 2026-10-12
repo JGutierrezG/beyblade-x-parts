@@ -280,7 +280,10 @@ def resolve_images(keys: list[str]) -> dict[str, dict]:
             key = title[len("File:"):].replace(" ", "_")
             ii = (p.get("imageinfo") or [None])[0]
             if ii:
-                out[key] = {"url": ii["url"].split("?")[0], "size": ii["size"], "mime": ii["mime"],
+                # Fandom's CDN (Vignette) may serve a re-encoded/optimized variant;
+                # format=original forces the byte-identical upload so SHA-1 matches.
+                url = ii["url"] + ("&" if "?" in ii["url"] else "?") + "format=original"
+                out[key] = {"url": url, "size": ii["size"], "mime": ii["mime"],
                             "sha1": ii["sha1"], "width": ii["width"], "height": ii["height"]}
         time.sleep(0.5)
     return out
@@ -309,7 +312,8 @@ def download(plan: list[dict]) -> dict:
         try:
             data = http_get(e["source_url"])
             if hashlib.sha1(data).hexdigest() != e["sha1"]:
-                raise ValueError("SHA-1 mismatch")
+                raise ValueError(f"SHA-1 mismatch (got {len(data)} bytes, expected {e['bytes']}, "
+                                 f"magic={data[:12]!r})")
             dest.parent.mkdir(parents=True, exist_ok=True)
             tmp = dest.with_suffix(dest.suffix + ".part")
             tmp.write_bytes(data)
