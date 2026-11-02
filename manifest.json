@@ -1,12 +1,12 @@
 {
   "source": "Beyblade Wiki (Fandom) — https://beyblade.fandom.com",
   "generated_by": "scripts/sync_parts.py",
-  "generated_at": "2026-10-26T15:54:53Z",
+  "generated_at": "2026-11-02T19:14:49Z",
   "stats": {
     "parts": 287,
     "images_planned": 286,
-    "downloaded": 10,
-    "unchanged": 276,
+    "downloaded": 24,
+    "unchanged": 262,
     "cdn_modified": 0,
     "failed": 0,
     "orphans": 1
@@ -109,8 +109,8 @@
       "width": 1071,
       "height": 1028,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "a7072e83f992f7d4c9ed801afe2e8613bbca58cd"
+      "sha1_stored": "a7072e83f992f7d4c9ed801afe2e8613bbca58cd",
+      "integrity": "exact"
     },
     {
       "line": "BX",
@@ -434,8 +434,8 @@
       "width": 1086,
       "height": 1102,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "3ef5d0dfdf2a1164739ba13e688854155caa63ac"
+      "sha1_stored": "3ef5d0dfdf2a1164739ba13e688854155caa63ac",
+      "integrity": "exact"
     },
     {
       "line": "BX",
@@ -2426,8 +2426,8 @@
       "width": 1085,
       "height": 992,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "c715730de82a35c97912edbc6d4168aed2171b71"
+      "sha1_stored": "c715730de82a35c97912edbc6d4168aed2171b71",
+      "integrity": "exact"
     },
     {
       "line": "BX",
@@ -3126,8 +3126,8 @@
       "width": 501,
       "height": 675,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "2300d08677e87fee0d966f097e37ce74c9d6884b"
+      "sha1_stored": "2300d08677e87fee0d966f097e37ce74c9d6884b",
+      "integrity": "exact"
     },
     {
       "line": "BX",
@@ -3251,8 +3251,8 @@
       "width": 712,
       "height": 664,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "4f164ca4830630166da4bd83e4f401aec0b65efd"
+      "sha1_stored": "4f164ca4830630166da4bd83e4f401aec0b65efd",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -3276,8 +3276,8 @@
       "width": 1301,
       "height": 1179,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "ada3ebabca3cd931d459ac9d2ed517aed2c34c78"
+      "sha1_stored": "ada3ebabca3cd931d459ac9d2ed517aed2c34c78",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -3326,8 +3326,8 @@
       "width": 708,
       "height": 661,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "f973aff6f03c5d568bd702bf5b632323bc42d823"
+      "sha1_stored": "f973aff6f03c5d568bd702bf5b632323bc42d823",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -3520,14 +3520,14 @@
       "image_kind": "part",
       "path": "images/ux-unique-line/blades/ux-blade-scorpio-spear.png",
       "source_file": "BladeScorpioSpear.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest?cb=20250614081207&format=original",
-      "sha1": "5b0e0176c94b9064f1dbda996cfd081500586ca7",
-      "bytes": 231521,
-      "width": 358,
-      "height": 339,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/8/89/BladeScorpioSpear.png/revision/latest?cb=20261028044522&format=original",
+      "sha1": "1c8eb83b6818a3fc69b3f19aafeeff0ea7bf0bd3",
+      "bytes": 984708,
+      "width": 712,
+      "height": 678,
       "status": "ok",
-      "sha1_stored": "5b0e0176c94b9064f1dbda996cfd081500586ca7",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "1c8eb83b6818a3fc69b3f19aafeeff0ea7bf0bd3"
     },
     {
       "line": "UX",
@@ -3895,14 +3895,14 @@
       "image_kind": "part",
       "path": "images/ux-unique-line/ratchets/ux-ratchet-0-70.png",
       "source_file": "Ratchet0-70.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest?cb=20250415034357&format=original",
-      "sha1": "f8ef58b8d82a9a2ab621a1a86a8a8e29ac4c3c4a",
-      "bytes": 207384,
-      "width": 350,
-      "height": 319,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/0/08/Ratchet0-70.png/revision/latest?cb=20261028044546&format=original",
+      "sha1": "26d9ec7ec26072a6f0afec0a51f5d469413922f7",
+      "bytes": 634341,
+      "width": 660,
+      "height": 599,
       "status": "ok",
-      "sha1_stored": "f8ef58b8d82a9a2ab621a1a86a8a8e29ac4c3c4a",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "26d9ec7ec26072a6f0afec0a51f5d469413922f7"
     },
     {
       "line": "UX",
@@ -3926,8 +3926,8 @@
       "width": 670,
       "height": 608,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "91ccd8666fbab2505cfb1cf619b48226dd231580"
+      "sha1_stored": "91ccd8666fbab2505cfb1cf619b48226dd231580",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -4476,8 +4476,8 @@
       "width": 363,
       "height": 580,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "c4515b16e9d3f2f012a925964df54ba6d0e3b040"
+      "sha1_stored": "c4515b16e9d3f2f012a925964df54ba6d0e3b040",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -4576,8 +4576,8 @@
       "width": 581,
       "height": 846,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "e1332f2c26e6d4b12b2fae16b9bb7361e1c6dd05"
+      "sha1_stored": "e1332f2c26e6d4b12b2fae16b9bb7361e1c6dd05",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -4595,14 +4595,14 @@
       "image_kind": "part",
       "path": "images/ux-unique-line/bits/ux-bit-z-zap.png",
       "source_file": "BitZap.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/6/61/BitZap.png/revision/latest?cb=20250415034411&format=original",
-      "sha1": "a27dfabccaaff09a5359464293606131a8d29cf6",
-      "bytes": 72296,
-      "width": 174,
-      "height": 276,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/6/61/BitZap.png/revision/latest?cb=20261028044614&format=original",
+      "sha1": "b96eb0cea9b9019d7b87be23478272ccf3997269",
+      "bytes": 227887,
+      "width": 365,
+      "height": 576,
       "status": "ok",
-      "sha1_stored": "a27dfabccaaff09a5359464293606131a8d29cf6",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "b96eb0cea9b9019d7b87be23478272ccf3997269"
     },
     {
       "line": "CX",
@@ -4745,14 +4745,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/lock-chips/cx-lock-chip-dran.png",
       "source_file": "LockChipDran.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/6/6c/LockChipDran.png/revision/latest?cb=20250215050437&format=original",
-      "sha1": "bdec8dcb3ea84c5e17105a9fcb141e1c6276b836",
-      "bytes": 49146,
-      "width": 177,
-      "height": 177,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/6/6c/LockChipDran.png/revision/latest?cb=20261028043133&format=original",
+      "sha1": "4eb0664d5112c3d9d4d60aaaafb6438b509d0538",
+      "bytes": 172057,
+      "width": 342,
+      "height": 340,
       "status": "ok",
-      "sha1_stored": "bdec8dcb3ea84c5e17105a9fcb141e1c6276b836",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "4eb0664d5112c3d9d4d60aaaafb6438b509d0538"
     },
     {
       "line": "CX",
@@ -4845,14 +4845,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/lock-chips/cx-lock-chip-hells.png",
       "source_file": "LockChipHells.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/7/7a/LockChipHells.png/revision/latest?cb=20250314041513&format=original",
-      "sha1": "6fbbe6933f059427d5a70488641bbad52b6c7554",
-      "bytes": 50310,
-      "width": 175,
-      "height": 174,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/7/7a/LockChipHells.png/revision/latest?cb=20261028043915&format=original",
+      "sha1": "267db5e4d3575a0f41b4a55497e22f73b0cd8712",
+      "bytes": 199703,
+      "width": 346,
+      "height": 344,
       "status": "ok",
-      "sha1_stored": "6fbbe6933f059427d5a70488641bbad52b6c7554",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "267db5e4d3575a0f41b4a55497e22f73b0cd8712"
     },
     {
       "line": "CX",
@@ -5045,14 +5045,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/lock-chips/cx-lock-chip-perseus.png",
       "source_file": "LockChipPerseus.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/6/6a/LockChipPerseus.png/revision/latest?cb=20250215050629&format=original",
-      "sha1": "3e73babaa8194ca8bbde46e183eee5d3fe35b9bf",
-      "bytes": 51805,
-      "width": 172,
-      "height": 169,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/6/6a/LockChipPerseus.png/revision/latest?cb=20261028043630&format=original",
+      "sha1": "89c4c919a1667febfd52a43fd1fb24b69c2f89d2",
+      "bytes": 206359,
+      "width": 339,
+      "height": 338,
       "status": "ok",
-      "sha1_stored": "3e73babaa8194ca8bbde46e183eee5d3fe35b9bf",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "89c4c919a1667febfd52a43fd1fb24b69c2f89d2"
     },
     {
       "line": "CX",
@@ -5120,14 +5120,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/lock-chips/cx-lock-chip-rhino.png",
       "source_file": "LockChipRhino.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/d/d7/LockChipRhino.png/revision/latest?cb=20250404235409&format=original",
-      "sha1": "72141d59a8e5ff7ef053c89d6c8f418553a33206",
-      "bytes": 166897,
-      "width": 350,
-      "height": 347,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/d/d7/LockChipRhino.png/revision/latest?cb=20261028044214&format=original",
+      "sha1": "feab691ee099626b996a934e58d5207b5c78d5f3",
+      "bytes": 201937,
+      "width": 349,
+      "height": 349,
       "status": "ok",
-      "sha1_stored": "72141d59a8e5ff7ef053c89d6c8f418553a33206",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "feab691ee099626b996a934e58d5207b5c78d5f3"
     },
     {
       "line": "CX",
@@ -5320,14 +5320,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/lock-chips/cx-lock-chip-wizard.png",
       "source_file": "LockChipWizard.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/4/43/LockChipWizard.png/revision/latest?cb=20250215050531&format=original",
-      "sha1": "52a5f85bef75832e07af6663392a3804a443b046",
-      "bytes": 50281,
-      "width": 171,
-      "height": 170,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/4/43/LockChipWizard.png/revision/latest?cb=20261028043356&format=original",
+      "sha1": "1595f947c6ad563a7968fc9b2e5df73bdb57a3d1",
+      "bytes": 197603,
+      "width": 342,
+      "height": 340,
       "status": "ok",
-      "sha1_stored": "52a5f85bef75832e07af6663392a3804a443b046",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "1595f947c6ad563a7968fc9b2e5df73bdb57a3d1"
     },
     {
       "line": "CX",
@@ -5766,14 +5766,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/main-blades/cx-main-blade-arc.png",
       "source_file": "MainBladeArc.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/f/f5/MainBladeArc.png/revision/latest?cb=20250801190723&format=original",
-      "sha1": "8bb3f9f398de67eade879bb2f0781933372fe9cd",
-      "bytes": 202230,
-      "width": 357,
-      "height": 341,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/f/f5/MainBladeArc.png/revision/latest?cb=20261028043428&format=original",
+      "sha1": "ec1cbf9862562af333eccf595c408f342cf1dcd7",
+      "bytes": 800117,
+      "width": 712,
+      "height": 682,
       "status": "ok",
-      "sha1_stored": "8bb3f9f398de67eade879bb2f0781933372fe9cd",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "ec1cbf9862562af333eccf595c408f342cf1dcd7"
     },
     {
       "line": "CX",
@@ -5816,14 +5816,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/main-blades/cx-main-blade-brave.png",
       "source_file": "MainBladeBrave.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/d/df/MainBladeBrave.png/revision/latest?cb=20250727212836&format=original",
-      "sha1": "0738c846c194616b2394591637e8231ab932b662",
-      "bytes": 199790,
-      "width": 356,
-      "height": 364,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/d/df/MainBladeBrave.png/revision/latest?cb=20261028043156&format=original",
+      "sha1": "ea1cc2a533b8dcc8804979721a5874aa85243706",
+      "bytes": 771767,
+      "width": 712,
+      "height": 726,
       "status": "ok",
-      "sha1_stored": "0738c846c194616b2394591637e8231ab932b662",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "ea1cc2a533b8dcc8804979721a5874aa85243706"
     },
     {
       "line": "CX",
@@ -5866,14 +5866,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/main-blades/cx-main-blade-dark.png",
       "source_file": "MainBladeDark.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/e/e0/MainBladeDark.png/revision/latest?cb=20250215050646&format=original",
-      "sha1": "459291238ee8afa689c913287d64af884131e167",
-      "bytes": 197460,
-      "width": 356,
-      "height": 338,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/e/e0/MainBladeDark.png/revision/latest?cb=20261028043701&format=original",
+      "sha1": "fc746e5db21a060de51fd88ac3928ff1bae5f6b6",
+      "bytes": 800089,
+      "width": 712,
+      "height": 675,
       "status": "ok",
-      "sha1_stored": "459291238ee8afa689c913287d64af884131e167",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "fc746e5db21a060de51fd88ac3928ff1bae5f6b6"
     },
     {
       "line": "CX",
@@ -6091,14 +6091,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/main-blades/cx-main-blade-reaper.png",
       "source_file": "MainBladeReaper.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/a/a4/MainBladeReaper.png/revision/latest?cb=20250314041624&format=original",
-      "sha1": "7501807659ebff0bdbfde092dbdc0279d3b38cd4",
-      "bytes": 196082,
-      "width": 355,
-      "height": 357,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/a/a4/MainBladeReaper.png/revision/latest?cb=20261028043946&format=original",
+      "sha1": "53ec58801056de694c05e13c6045cdee78ba7fc8",
+      "bytes": 762868,
+      "width": 712,
+      "height": 712,
       "status": "ok",
-      "sha1_stored": "7501807659ebff0bdbfde092dbdc0279d3b38cd4",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "53ec58801056de694c05e13c6045cdee78ba7fc8"
     },
     {
       "line": "CX",
@@ -6191,14 +6191,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/assist-blades/cx-assist-blade-b-bumper.png",
       "source_file": "AssistBladeBumper.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/a/aa/AssistBladeBumper.png/revision/latest?cb=20250215050654&format=original",
-      "sha1": "68c97a3bba1287220faa947f84992e32b659b09d",
-      "bytes": 185371,
-      "width": 358,
-      "height": 365,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/a/aa/AssistBladeBumper.png/revision/latest?cb=20261028043726&format=original",
+      "sha1": "4d787d3cfcef9fe0420d05de21fd903a769c2f37",
+      "bytes": 821446,
+      "width": 712,
+      "height": 725,
       "status": "ok",
-      "sha1_stored": "68c97a3bba1287220faa947f84992e32b659b09d",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "4d787d3cfcef9fe0420d05de21fd903a769c2f37"
     },
     {
       "line": "CX",
@@ -6216,14 +6216,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/assist-blades/cx-assist-blade-c-charge.png",
       "source_file": "AssistBladeCharge.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/8/89/AssistBladeCharge.png/revision/latest?cb=20250314041928&format=original",
-      "sha1": "b4f8b2456306225e71554ec5112d91993bbd8f59",
-      "bytes": 205910,
-      "width": 358,
-      "height": 359,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/8/89/AssistBladeCharge.png/revision/latest?cb=20261028044301&format=original",
+      "sha1": "7f1c5f7d0d6cda29b9590b82d4c74de1b196f5e7",
+      "bytes": 817597,
+      "width": 712,
+      "height": 714,
       "status": "ok",
-      "sha1_stored": "b4f8b2456306225e71554ec5112d91993bbd8f59",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "7f1c5f7d0d6cda29b9590b82d4c74de1b196f5e7"
     },
     {
       "line": "CX",
@@ -6516,14 +6516,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/assist-blades/cx-assist-blade-r-round.png",
       "source_file": "AssistBladeRound.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/3/3c/AssistBladeRound.png/revision/latest?cb=20250215050554&format=original",
-      "sha1": "d66ed9aa503286887e0cae32111326c4a7ebc8ad",
-      "bytes": 96509,
-      "width": 356,
-      "height": 356,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/3/3c/AssistBladeRound.png/revision/latest?cb=20261028043459&format=original",
+      "sha1": "f9ecd073a2bc6fb3d28f1195adfe57b71e835f9c",
+      "bytes": 548070,
+      "width": 712,
+      "height": 712,
       "status": "ok",
-      "sha1_stored": "d66ed9aa503286887e0cae32111326c4a7ebc8ad",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "f9ecd073a2bc6fb3d28f1195adfe57b71e835f9c"
     },
     {
       "line": "CX",
@@ -6541,14 +6541,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/assist-blades/cx-assist-blade-s-slash.png",
       "source_file": "AssistBladeSlash.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/c/cb/AssistBladeSlash.png/revision/latest?cb=20250215050454&format=original",
-      "sha1": "0bb456224b21b0b9e2ea058ed33a182e782b546b",
-      "bytes": 185711,
-      "width": 357,
-      "height": 360,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/c/cb/AssistBladeSlash.png/revision/latest?cb=20261028043225&format=original",
+      "sha1": "651146d460e9bf4fd450a5c9d3f5404b7a1be684",
+      "bytes": 731338,
+      "width": 712,
+      "height": 716,
       "status": "ok",
-      "sha1_stored": "0bb456224b21b0b9e2ea058ed33a182e782b546b",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "651146d460e9bf4fd450a5c9d3f5404b7a1be684"
     },
     {
       "line": "CX",
@@ -6566,14 +6566,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/assist-blades/cx-assist-blade-t-turn.png",
       "source_file": "AssistBladeTurn.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest?cb=20250314041629&format=original",
-      "sha1": "d555c59a7d34c01e38bede4e99cdeddc80483d2c",
-      "bytes": 168183,
-      "width": 357,
-      "height": 357,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/2/2c/AssistBladeTurn.png/revision/latest?cb=20261028044017&format=original",
+      "sha1": "6087ad0af01a5cbae77842a2845ec65035fa5d1e",
+      "bytes": 763368,
+      "width": 712,
+      "height": 712,
       "status": "ok",
-      "sha1_stored": "d555c59a7d34c01e38bede4e99cdeddc80483d2c",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "6087ad0af01a5cbae77842a2845ec65035fa5d1e"
     },
     {
       "line": "CX",
@@ -6716,14 +6716,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/ratchets/cx-ratchet-4-55.png",
       "source_file": "Ratchet4-55.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest?cb=20250605000210&format=original",
-      "sha1": "f4b3599a0f49b0596bde5b538be401e3bfefa63a",
-      "bytes": 223220,
-      "width": 356,
-      "height": 319,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/7/7a/Ratchet4-55.png/revision/latest?cb=20261028043527&format=original",
+      "sha1": "0264699d1fc2d21751fd8916cc71b7768937f3dd",
+      "bytes": 855626,
+      "width": 712,
+      "height": 638,
       "status": "ok",
-      "sha1_stored": "f4b3599a0f49b0596bde5b538be401e3bfefa63a",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "0264699d1fc2d21751fd8916cc71b7768937f3dd"
     },
     {
       "line": "CX",
@@ -6766,14 +6766,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/ratchets/cx-ratchet-6-60.png",
       "source_file": "Ratchet6-60.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest?cb=20250215050512&format=original",
-      "sha1": "a5f5555afd76df2f37da3279e647cba9859bd2ff",
-      "bytes": 202323,
-      "width": 357,
-      "height": 323,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/5/53/Ratchet6-60.png/revision/latest?cb=20261028043252&format=original",
+      "sha1": "9b2bb7e4cf9a34f82cd1d76f05854e74d000d2cb",
+      "bytes": 832521,
+      "width": 712,
+      "height": 644,
       "status": "ok",
-      "sha1_stored": "a5f5555afd76df2f37da3279e647cba9859bd2ff",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "9b2bb7e4cf9a34f82cd1d76f05854e74d000d2cb"
     },
     {
       "line": "CX",
@@ -6791,14 +6791,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/ratchets/cx-ratchet-6-80.png",
       "source_file": "Ratchet6-80.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest?cb=20250215050704&format=original",
-      "sha1": "e06f958c1c144bb5bd21cf7a540112c79cd3e563",
-      "bytes": 225323,
-      "width": 356,
-      "height": 321,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/9/98/Ratchet6-80.png/revision/latest?cb=20261028043755&format=original",
+      "sha1": "e7d417ca1e210314b86863c04dd93d8d88bacd96",
+      "bytes": 889567,
+      "width": 710,
+      "height": 641,
       "status": "ok",
-      "sha1_stored": "e06f958c1c144bb5bd21cf7a540112c79cd3e563",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "e7d417ca1e210314b86863c04dd93d8d88bacd96"
     },
     {
       "line": "CX",
@@ -6941,14 +6941,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/bits/cx-bit-k-kick.png",
       "source_file": "BitKick.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitKick.png/revision/latest?cb=20250314041641&format=original",
-      "sha1": "724eb8808298aae985ebc5d95c2bbd274991af57",
-      "bytes": 71684,
-      "width": 186,
-      "height": 301,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/4/47/BitKick.png/revision/latest?cb=20261028044102&format=original",
+      "sha1": "7a142abf7ff84ddc50d23c62e50a08f6654a0771",
+      "bytes": 311219,
+      "width": 368,
+      "height": 599,
       "status": "ok",
-      "sha1_stored": "724eb8808298aae985ebc5d95c2bbd274991af57",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "7a142abf7ff84ddc50d23c62e50a08f6654a0771"
     },
     {
       "line": "CX",
@@ -6966,14 +6966,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/bits/cx-bit-lo-low-orb.png",
       "source_file": "BitLowOrb.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/f/f4/BitLowOrb.png/revision/latest?cb=20250215050618&format=original",
-      "sha1": "ca1bac9501bcb69271aee0733722bac6688cd020",
-      "bytes": 55298,
-      "width": 186,
-      "height": 283,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/f/f4/BitLowOrb.png/revision/latest?cb=20261028043557&format=original",
+      "sha1": "48370cfb3f6ace9e621ba46b63a224e11e186715",
+      "bytes": 251220,
+      "width": 372,
+      "height": 566,
       "status": "ok",
-      "sha1_stored": "ca1bac9501bcb69271aee0733722bac6688cd020",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "48370cfb3f6ace9e621ba46b63a224e11e186715"
     },
     {
       "line": "CX",
@@ -7066,14 +7066,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/bits/cx-bit-v-vortex.png",
       "source_file": "BitVortex.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/f/f9/BitVortex.png/revision/latest?cb=20250215050522&format=original",
-      "sha1": "7e1a89027c961c1a1d0d1d58ee46da93166f89c9",
-      "bytes": 65770,
-      "width": 172,
-      "height": 285,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/f/f9/BitVortex.png/revision/latest?cb=20261028043323&format=original",
+      "sha1": "e6aa7ede782719d17788739092985bafd50f7000",
+      "bytes": 270944,
+      "width": 343,
+      "height": 565,
       "status": "ok",
-      "sha1_stored": "7e1a89027c961c1a1d0d1d58ee46da93166f89c9",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "e6aa7ede782719d17788739092985bafd50f7000"
     },
     {
       "line": "CX",
@@ -7141,14 +7141,14 @@
       "image_kind": "part",
       "path": "images/cx-custom-line/bits/cx-bit-w-wedge.png",
       "source_file": "BitWedge.png",
-      "source_url": "https://static.wikia.nocookie.net/beyblade/images/2/29/BitWedge.png/revision/latest?cb=20250215050716&format=original",
-      "sha1": "1fc8f0bcbd9179a3dc4c8b8f47fc1f8e4b86072d",
-      "bytes": 58150,
-      "width": 173,
-      "height": 271,
+      "source_url": "https://static.wikia.nocookie.net/beyblade/images/2/29/BitWedge.png/revision/latest?cb=20261028043835&format=original",
+      "sha1": "e8db7657b24a3bfce69cec9efff0661e14175abf",
+      "bytes": 256254,
+      "width": 346,
+      "height": 542,
       "status": "ok",
-      "sha1_stored": "1fc8f0bcbd9179a3dc4c8b8f47fc1f8e4b86072d",
-      "integrity": "exact"
+      "integrity": "exact",
+      "sha1_stored": "e8db7657b24a3bfce69cec9efff0661e14175abf"
     },
     {
       "line": "CX",
