@@ -1,12 +1,12 @@
 {
   "source": "Beyblade Wiki (Fandom) — https://beyblade.fandom.com",
   "generated_by": "scripts/sync_parts.py",
-  "generated_at": "2026-11-02T19:14:49Z",
+  "generated_at": "2026-11-09T19:33:49Z",
   "stats": {
     "parts": 287,
     "images_planned": 286,
-    "downloaded": 24,
-    "unchanged": 262,
+    "downloaded": 0,
+    "unchanged": 286,
     "cdn_modified": 0,
     "failed": 0,
     "orphans": 1
@@ -3526,8 +3526,8 @@
       "width": 712,
       "height": 678,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "1c8eb83b6818a3fc69b3f19aafeeff0ea7bf0bd3"
+      "sha1_stored": "1c8eb83b6818a3fc69b3f19aafeeff0ea7bf0bd3",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -3901,8 +3901,8 @@
       "width": 660,
       "height": 599,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "26d9ec7ec26072a6f0afec0a51f5d469413922f7"
+      "sha1_stored": "26d9ec7ec26072a6f0afec0a51f5d469413922f7",
+      "integrity": "exact"
     },
     {
       "line": "UX",
@@ -4601,8 +4601,8 @@
       "width": 365,
       "height": 576,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "b96eb0cea9b9019d7b87be23478272ccf3997269"
+      "sha1_stored": "b96eb0cea9b9019d7b87be23478272ccf3997269",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -4751,8 +4751,8 @@
       "width": 342,
       "height": 340,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "4eb0664d5112c3d9d4d60aaaafb6438b509d0538"
+      "sha1_stored": "4eb0664d5112c3d9d4d60aaaafb6438b509d0538",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -4851,8 +4851,8 @@
       "width": 346,
       "height": 344,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "267db5e4d3575a0f41b4a55497e22f73b0cd8712"
+      "sha1_stored": "267db5e4d3575a0f41b4a55497e22f73b0cd8712",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -5051,8 +5051,8 @@
       "width": 339,
       "height": 338,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "89c4c919a1667febfd52a43fd1fb24b69c2f89d2"
+      "sha1_stored": "89c4c919a1667febfd52a43fd1fb24b69c2f89d2",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -5126,8 +5126,8 @@
       "width": 349,
       "height": 349,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "feab691ee099626b996a934e58d5207b5c78d5f3"
+      "sha1_stored": "feab691ee099626b996a934e58d5207b5c78d5f3",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -5326,8 +5326,8 @@
       "width": 342,
       "height": 340,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "1595f947c6ad563a7968fc9b2e5df73bdb57a3d1"
+      "sha1_stored": "1595f947c6ad563a7968fc9b2e5df73bdb57a3d1",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -5772,8 +5772,8 @@
       "width": 712,
       "height": 682,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "ec1cbf9862562af333eccf595c408f342cf1dcd7"
+      "sha1_stored": "ec1cbf9862562af333eccf595c408f342cf1dcd7",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -5822,8 +5822,8 @@
       "width": 712,
       "height": 726,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "ea1cc2a533b8dcc8804979721a5874aa85243706"
+      "sha1_stored": "ea1cc2a533b8dcc8804979721a5874aa85243706",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -5872,8 +5872,8 @@
       "width": 712,
       "height": 675,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "fc746e5db21a060de51fd88ac3928ff1bae5f6b6"
+      "sha1_stored": "fc746e5db21a060de51fd88ac3928ff1bae5f6b6",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6097,8 +6097,8 @@
       "width": 712,
       "height": 712,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "53ec58801056de694c05e13c6045cdee78ba7fc8"
+      "sha1_stored": "53ec58801056de694c05e13c6045cdee78ba7fc8",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6197,8 +6197,8 @@
       "width": 712,
       "height": 725,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "4d787d3cfcef9fe0420d05de21fd903a769c2f37"
+      "sha1_stored": "4d787d3cfcef9fe0420d05de21fd903a769c2f37",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6222,8 +6222,8 @@
       "width": 712,
       "height": 714,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "7f1c5f7d0d6cda29b9590b82d4c74de1b196f5e7"
+      "sha1_stored": "7f1c5f7d0d6cda29b9590b82d4c74de1b196f5e7",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6522,8 +6522,8 @@
       "width": 712,
       "height": 712,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "f9ecd073a2bc6fb3d28f1195adfe57b71e835f9c"
+      "sha1_stored": "f9ecd073a2bc6fb3d28f1195adfe57b71e835f9c",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6547,8 +6547,8 @@
       "width": 712,
       "height": 716,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "651146d460e9bf4fd450a5c9d3f5404b7a1be684"
+      "sha1_stored": "651146d460e9bf4fd450a5c9d3f5404b7a1be684",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6572,8 +6572,8 @@
       "width": 712,
       "height": 712,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "6087ad0af01a5cbae77842a2845ec65035fa5d1e"
+      "sha1_stored": "6087ad0af01a5cbae77842a2845ec65035fa5d1e",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6722,8 +6722,8 @@
       "width": 712,
       "height": 638,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "0264699d1fc2d21751fd8916cc71b7768937f3dd"
+      "sha1_stored": "0264699d1fc2d21751fd8916cc71b7768937f3dd",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6772,8 +6772,8 @@
       "width": 712,
       "height": 644,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "9b2bb7e4cf9a34f82cd1d76f05854e74d000d2cb"
+      "sha1_stored": "9b2bb7e4cf9a34f82cd1d76f05854e74d000d2cb",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6797,8 +6797,8 @@
       "width": 710,
       "height": 641,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "e7d417ca1e210314b86863c04dd93d8d88bacd96"
+      "sha1_stored": "e7d417ca1e210314b86863c04dd93d8d88bacd96",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6947,8 +6947,8 @@
       "width": 368,
       "height": 599,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "7a142abf7ff84ddc50d23c62e50a08f6654a0771"
+      "sha1_stored": "7a142abf7ff84ddc50d23c62e50a08f6654a0771",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -6972,8 +6972,8 @@
       "width": 372,
       "height": 566,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "48370cfb3f6ace9e621ba46b63a224e11e186715"
+      "sha1_stored": "48370cfb3f6ace9e621ba46b63a224e11e186715",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -7072,8 +7072,8 @@
       "width": 343,
       "height": 565,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "e6aa7ede782719d17788739092985bafd50f7000"
+      "sha1_stored": "e6aa7ede782719d17788739092985bafd50f7000",
+      "integrity": "exact"
     },
     {
       "line": "CX",
@@ -7147,8 +7147,8 @@
       "width": 346,
       "height": 542,
       "status": "ok",
-      "integrity": "exact",
-      "sha1_stored": "e8db7657b24a3bfce69cec9efff0661e14175abf"
+      "sha1_stored": "e8db7657b24a3bfce69cec9efff0661e14175abf",
+      "integrity": "exact"
     },
     {
       "line": "CX",
